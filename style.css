@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+#header {
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+
+}
+
+.header-links{
+	display: block;
+	font-size: 15px;
+	line-height: 50px;
+	margin: 0px 10px;
+	color: #111;
+	text-decoration: none;
+	flex: 0 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-spacer {
+	flex: 1 1 100px;
+}
+
+#header img {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+}
+
+#header-button {
+	margin: 10px;
+	line-height: unset;
+	width: 60px;
+	border: none;
+	background-color: #4585f2;
+	color: white;
+	font-weight: 400;
+	border-radius: 3px;
+}
+
+#main-content {
+	height: 80%;
+}
+
+#logo-box {
+	margin: auto;
+	margin-top: 100px;
+	width: 272px;
+}
+
+
+#search-bar {
+	border: 1px #000000 solid;
+	height: 40px;
+	width: 600px;
+	margin: 20px auto;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	border-color: #e4e6e9;
+}
+
+#search-bar:hover {
+	box-shadow: 0 4px 8px 0 rgba(243, 243, 243, 1), 0 6px 20px 0 rgba(243, 243, 243, 1);
+}
+
+#search-magnifier-icon {
+	padding-left: 10px;
+}
+
+#magnifier-image {
+	width: 15px;
+}
+
+#search-input-box {
+	height: 35px;
+	width: 100%;
+	margin: 1px 10px;
+}
+#search-input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+}
+input[type="text" i] {
+	font-size: 20px;
+}
+
+#search-voice-input-icon{
+	padding-right: 15px;
+}
+#voice-input-image{
+	width: 13px;
+}
+
+
+#search-buttons{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#google-search-button, #feeling-lucky-button{
+	height: 40px;
+	width: 170px;
+	margin: 3px 10px;
+	background-color: #f3f3f3;
+	border: none;
+	border-radius: 5px;
+}
+
+#google-search-button:hover, #feeling-lucky-button:hover{
+	border: 1px rgb(168, 168, 168) solid;
+}
+
+#footer1{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background-color: #f2f2f2;
+	display: flex;
+	padding: 0 10px;
+
+}
+
+.footer-links {
+	color: #222;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 5px;
+	flex: 0 0 auto;
+}
+
+.footer-links:hover {
+	text-decoration: underline;
+}
+
+.foooter-links:active{
+	color: #222;
+}
+
+
+#footer-spacer {
+flex: 1 1 100px;
+}
